@@ -3,7 +3,7 @@ S3Bucket=BUCKET_NAME
 REGION=REGION_NAME
 
 FILE="$(uuidgen).yaml"
-PREFIX=streamingitl
+PREFIX=serverless/firehose
 
 cd lambda/
 pip3 install -r requirements.txt -t "$PWD" --upgrade
